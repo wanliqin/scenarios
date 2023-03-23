@@ -25,7 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/print"]
+        "skills": ["python/id"]
       },
       {
         "title": "Modifying a mutable data type",
@@ -39,7 +39,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/list"]
+        "skills": ["python/list","python/id"]
       },
       {
         "title": "Modifying an immutable data type",
@@ -53,7 +53,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/print"]
+        "skills": ["python/print","python/id"]
       }
      
     ],
