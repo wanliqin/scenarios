@@ -25,7 +25,7 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/is","python/print"]
+        "skills": ["python/id","python/print"]
       },
       {
         "title": "Modifying a mutable data type",
