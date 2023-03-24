@@ -12,7 +12,7 @@
         "verify": [
           {
             "name": "Check if this step is completed",
-            "file": "verify1.sh",
+            "file": "verify0.sh",
             "hint": "Please follow the steps to complete the operation.",
             "timeout": 5,
             "showstderr": false
