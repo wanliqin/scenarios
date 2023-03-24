@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "d"
+cat ~/.python_history | grep "c"
