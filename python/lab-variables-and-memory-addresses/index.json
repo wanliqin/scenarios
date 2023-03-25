@@ -1,7 +1,7 @@
 {
   "type": "lab",
   "title": "lab-variables-and-memory-addresses",
-  "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses. We'll learn about variable assignment, mutable and immutable data types, and the `is` operator for comparing memory addresses.",
+  "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses.",
   "difficulty": "Beginner",
   "time": 20,
   "details": {
