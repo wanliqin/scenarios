@@ -16,7 +16,7 @@ In Python, a variable is simply a reference to the memory location where the val
 Python has mutable and immutable data types:
 
 - ** immutable data types**: they cannot be changed after they are created. For example, "int", "float", "str", "tuple", and "frozenset".
-- **Variable data types**: can be modified after creation. Includes `list', `dict', and `set'.
+- ** Variable data types**: can be modified after creation. Includes `list', `dict', and `set'.
 
 When using immutable data types, any changes you make will cause a new object to be created. Variable data types, on the other hand, can be modified in-place. This distinction is important when dealing with memory addresses and variable assignments.
 
