@@ -21,7 +21,7 @@
         "skills": ["python/python_interpreter"]
       },
       {
-        "title": "Variables and Memory Addresses",
+        "title": "Variable allocation and memory addresses",
         "text": "step1.md",
         "verify": [
           {
@@ -32,35 +32,35 @@
             "showstderr": false
           }
         ],
-        "skills": ["python/is", "python/print"]
+        "skills": ["python/id", "python/list"]
       },
       {
-        "title": "Modifying a mutable data type",
+        "title": "Variable and immutable data types",
         "text": "step2.md",
         "verify": [
           {
-            "name": "Create two variables and reference the same list.",
+            "name": "Create two variables pointing to the same address.",
             "file": "verify2.sh",
             "hint": "Please follow the steps to complete the operation.",
             "timeout": 5,
             "showstderr": false
           }
         ],
-        "skills": ["python/id", "python/list"]
+        "skills": ["python/print"]
       },
       {
-        "title": "Modifying an immutable data type",
+        "title": " 'is' operator and built-in function 'id()' ",
         "text": "step3.md",
         "verify": [
           {
-            "name": "Modify the string using variable `a`",
+            "name": "Using operators",
             "file": "verify3.sh",
-            "hint": "Modify the string and Observe the changes",
+            "hint": "Please follow the steps to complete the operation.",
             "timeout": 5,
             "showstderr": false
           }
         ],
-        "skills": ["python/id", "python/str"]
+        "skills": ["python/id", "python/list"]
       }
     ],
     "intro": {
