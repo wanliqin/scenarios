@@ -20,7 +20,7 @@ Python has mutable and immutable data types:
 
 When using immutable data types, any changes you make will cause a new object to be created. Variable data types, on the other hand, can be modified in-place. This distinction is important when dealing with memory addresses and variable assignments.
 
-## The `is` operator and the built-in function "id()"
+## The "is" operator and the built-in function "id()"
 
 In Python, the `is` operator compares the memory addresses of two objects. If the memory addresses are the same, the `is` operator returns `True`; otherwise, it returns `False`. This is different from the `==` operator, which compares the values of objects.
 
