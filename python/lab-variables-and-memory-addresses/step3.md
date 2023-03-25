@@ -1,37 +1,31 @@
-# Variable and immutable data types
+# 'is' operator and built-in function 'id()'
 
-When we work with immutable data types, such as integers, we cannot modify their values. If we try to change the value of an integer, a new integer object will be created.
-
-## For example
+ First, let's look at some sample code together that illustrates the use of the is operator, comparing the memory addresses of two objects:
 
 ```python
-x = 5       # Create an integer object
-y = x       # Point y to the same integer object
-x = x + 1   # Increase x by 1, creating a new integer object
-print(x)    # Outputs 6
-print(y)    # Output 5
+x = [1, 2, 3]
+y = [1, 2, 3]
+z = x
+print(x is y)   # False, because x and y have different memory addresses
+print(x is z)   # True, because x and z have the same memory address
 ```
 
-## Conclusion
+## To recap
 
-In this example, we try to increment the value of x by 1, but this operation actually creates a new integer object and points x to that object. Since integers are immutable, we can't change the value of x in place, so we must create a new object. Therefore, y still points to the original integer object, the one with the value 5.
+In Python, the is operator compares the memory addresses of two objects. If the memory addresses are the same, the is operator returns True; otherwise, it returns False. this is different from the == operator, which compares the values of objects.
 
-## Let's take a look at the next example first
-
-When we use mutable data types, such as lists, we can modify their values in-place.
-
-## For example
+## Then, let's look at some sample code that illustrates the use of the built-in function id()
 
 ```python
-lst = [1, 2, 3]  # Create a list object
-lst.append(4)    # Modify the list in place by adding a new element 4 to it
-print(lst)       # Output [1, 2, 3, 4]
+print(id(x))     # Output the unique identifier of the x object
+print(id(y))     # output the unique identifier of the y object, as opposed to x
+print(id(z))     # output the unique identifier of the z object, which is the same as x
 ```
 
-## Conclusion
+## To summarize
 
-In this example, we create a list object lst and then add a new element 4 to it using the append method. since the list is mutable, we can modify the value of lst in place without creating a new object.
+In Python, id() is a built-in function that can be used to return a unique identifier for a given object. This identifier is an integer that remains constant for the lifetime of the object. That is, if two objects have the same identifier, then they are the same object, and vice versa.
 
 ### In summary
 
-Immutable data types cannot be modified after they are created, and any attempt to modify them returns a new object. Variable data types, on the other hand, can have their values modified in place without creating a new object.
+It is important to note that the is operator compares the memory addresses of two objects, while the == operator compares the values of two objects. Therefore, when using the is operator to compare objects, you need to be aware that the memory addresses of different objects may be the same, while when using the == operator to compare objects, you need to be aware that the memory addresses of objects with the same value may be different.
