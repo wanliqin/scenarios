@@ -33,7 +33,7 @@
                         "hint": "Please open the Python interpreter.",
                         "timeout": 0,
                         "showstderr": false
-                    }，
+                    },
                     {
                         "name": "Memory addresses for variable and non-variable data types",
                         "file": "verify1-2sh",
