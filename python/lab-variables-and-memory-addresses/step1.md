@@ -1,21 +1,19 @@
-# Variable allocation and memory addresses
+# Compare memory addresses of mutable and immutable data types
 
-You can use the id() built-in function to get the memory address of an object. When they point to the same object's memory, the output value is the same.
-
-## For example
+In this step, we will practice hands-on practice together. First, open the python interpreter and learn the memory addresses of mutable and immutable data types in python.
 
 ```python
-a = [1, 2, 3]    # Define a list object
-b = a            # Assign the reference to a to b
-b[0] = 4         # modify the elements in b
-print(a)         # output [4, 2, 3 # output the elements in a
-print(b)         # output [4, 2, 3] # output the elements in b
-print(id(a) )    # output the memory address of object a
-print(id(b))     # output the memory address of object b, same as a
+# Create two integer variables `a` and `b` with the same value.
+a = 10
+b = 10
+# Create two list variables `c` and `d` with the same elements.
+c = [1, 2, 3]
+d = [1, 2, 3]
+
+# Compare the memory addresses of `a` and `b`, as well as `c` and `d`.
+print(a is b)  # Output: True 
+print(c is d)  # Output: False 
 ```
-
-Next, try writing it yourself, and then look at the summary
-
-## Summary
-
-In this example, the variables a and b both hold references to the same list object, so they point to the same object. When b[0] = 4 is used to modify the first element in b, it actually modifies the first element in a, because they point to the same object. Therefore, the output of the elements in a and b is [4, 2, 3].
+## Conclusion
+1. immutable data types with the same value may have the same memory address.
+2. mutable data types with the same value have different memory addresses.

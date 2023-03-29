@@ -1,3 +1,3 @@
-# Summary
+# Conclusion
 
-In this advanced tutorial, we took a deep dive into Python variables and memory addresses. Variable assignment, mutable and immutable data types were also discussed together. In addition, the "is" operator for comparing memory addresses and the built-in function id(), which returns a unique identifier for an object, were used. We also practiced these concepts through hands-on exercises. Understanding these advanced concepts will help you become a more proficient Python programmer because it provides more insight into how Python manages memory and how variables function at a deeper level.
+In this advanced tutorial, we delved deeper into Python variables and memory addresses. We discussed variable assignment, mutable and immutable data types, and the `is` operator for comparing memory addresses. We also practiced these concepts with hands-on exercises. Understanding these advanced concepts will help you become a more proficient Python programmer, as it provides greater insight into how Python manages memory and how variables function at a deeper level.

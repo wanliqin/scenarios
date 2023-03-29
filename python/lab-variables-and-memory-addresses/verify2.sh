@@ -1,1 +1,1 @@
-cat ~/.python_history | grep "+"
+cat ~/.zsh_history | grep "y"

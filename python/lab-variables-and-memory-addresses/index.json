@@ -1,77 +1,101 @@
 {
-  "type": "lab",
-  "title": "lab-variables-and-memory-addresses",
-  "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses.",
-  "difficulty": "Beginner",
-  "time": 20,
-  "details": {
-    "steps": [
-      {
-        "title": "Python Interpreter",
-        "text": "step0.md",
-        "verify": [
-          {
-            "name": "Check if this step is completed",
-            "file": "verify0.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 5,
-            "showstderr": false
-          }
+    "type": "lab",
+    "title": "Lab-Variables-and-Memory-Addresses",
+    "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses.",
+    "difficulty": "Beginner",
+    "time": 20,
+    "details": {
+        "steps": [
+            {
+                "title": "Please replace this text with the title of the step.",
+                "text": "step0.md",
+                "verify": [
+                    {
+                        "name": "Theoretical Learning",
+                        "file": "verify0.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/id", "python/is"
+                ]
+            },
+            
+            {
+                "title": "Compare memory addresses of mutable and immutable data types.",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Check if this step is completed",
+                        "file": "verify1-1.sh",
+                        "hint": "Please open the Python interpreter.",
+                        "timeout": 5,
+                        "showstderr": false
+                      },
+                    {
+                        "name": "Memory addresses for variable and non-variable data types",
+                        "file": "verify1-2.sh",
+                        "hint": "Please follow the steps to complete the operation.",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/python_interpreter", "python/list"
+                ]
+            },
+            {
+                "title": "Modifying a mutable data type",
+                "text": "step2.md",
+                "verify": [
+                    {
+                        "name": "Variable data types",
+                        "file": "verify2.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/list"
+                ]
+            },
+            {
+                "title": " Modifying an immutable data type",
+                "text": "step3.md",
+                "verify": [
+                    {
+                        "name": "Immutable data types",
+                        "file": "verify3.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": false
+                    }
+                ],
+                "skills": [
+                    "python/id", "python/str"
+                ]
+            }
         ],
-        "skills": ["python/python_interpreter"]
-      },
-      {
-        "title": "Variable allocation and memory addresses",
-        "text": "step1.md",
-        "verify": [
-          {
-            "name": "Compare the memory addresses.",
-            "file": "verify1.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 5,
-            "showstderr": false
-          }
-        ],
-        "skills": ["python/id", "python/list"]
-      },
-      {
-        "title": "Variable and immutable data types",
-        "text": "step2.md",
-        "verify": [
-          {
-            "name": "Create two variables pointing to the same address.",
-            "file": "verify2.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 5,
-            "showstderr": false
-          }
-        ],
-        "skills": ["python/print"]
-      },
-      {
-        "title": " 'is' operator and built-in function 'id()' ",
-        "text": "step3.md",
-        "verify": [
-          {
-            "name": "Using operators",
-            "file": "verify3.sh",
-            "hint": "Please follow the steps to complete the operation.",
-            "timeout": 5,
-            "showstderr": false
-          }
-        ],
-        "skills": ["python/id", "python/list"]
-      }
-    ],
-    "intro": {
-      "text": "intro.md",
-      "background": "setup.sh"
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "",
+                    "target": "/tmp"
+                }
+            ]
+        }
     },
-    "finish": {
-      "text": "finish.md"
+    "backend": {
+        "imageid": "webide-ubuntu:2204"
     }
-  },
-  "backend": {
-    "imageid": "webide-ubuntu:2204"
-  }
 }
