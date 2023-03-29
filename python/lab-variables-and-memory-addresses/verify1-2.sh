@@ -1,1 +1,1 @@
-cat ~/.zsh_history | grep "is"
+cat ~/.python_history | grep "is"
