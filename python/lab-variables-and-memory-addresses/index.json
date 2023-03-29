@@ -29,14 +29,14 @@
                 "verify": [
                     {
                         "name": "Check if this step is completed",
-                        "file": "verify1-1.sh",
+                        "file": "verify1s1.sh",
                         "hint": "Please open the Python interpreter.",
                         "timeout": 5,
                         "showstderr": false
                       },
                     {
                         "name": "Memory addresses for variable and non-variable data types",
-                        "file": "verify1-2.sh",
+                        "file": "verify1s2sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
@@ -53,7 +53,7 @@
                     {
                         "name": "Variable data types",
                         "file": "verify2.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
@@ -69,7 +69,7 @@
                     {
                         "name": "Immutable data types",
                         "file": "verify3.sh",
-                        "hint": "Please replace this text with the hint of the verify script",
+                        "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
                     }
