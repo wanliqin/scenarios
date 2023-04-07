@@ -11,9 +11,11 @@ c = [1, 2, 3]
 d = [1, 2, 3]
 
 # Compare the memory addresses of `a` and `b`, as well as `c` and `d`.
-print(a is b)  # Output: True 
-print(c is d)  # Output: False 
+print(a is b)  # Output: True
+print(c is d)  # Output: False
 ```
+
 ## Conclusion
-1. immutable data types with the same value may have the same memory address.
-2. mutable data types with the same value have different memory addresses.
+
+1. Immutable data types with the same value may have the same memory address.
+2. Mutable data types with the same value have different memory addresses.
