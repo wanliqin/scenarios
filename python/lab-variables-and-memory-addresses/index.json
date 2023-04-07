@@ -1,6 +1,6 @@
 {
     "type": "lab",
-    "title": "Lab-Variables-and-Memory-Addresses",
+    "title": "Variables and Memory Addresses",
     "description": "In this tutorial, we'll dive deeper into Python variables and memory addresses.",
     "difficulty": "Beginner",
     "time": 20,
@@ -8,11 +8,11 @@
         "steps": [
             {
                 "title": "Theoretical Learning",
-                "text": "step0.md",
+                "text": "step1.md",
                 "verify": [
                     {
                         "name": "Theoretical Learning",
-                        "file": "verify0.sh",
+                        "file": "verify1.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
@@ -25,18 +25,18 @@
             
             {
                 "title": "Compare memory addresses of mutable and immutable data types.",
-                "text": "step1.md",
+                "text": "step2.md",
                 "verify": [
                     {
                         "name": "Check if this step is completed",
-                        "file": "verify1-1.sh",
+                        "file": "verify2-1.sh",
                         "hint": "Please open the Python interpreter.",
                         "timeout": 0,
                         "showstderr": false
                       },
                     {
                         "name": "Memory addresses for variable and non-variable data types",
-                        "file": "verify1-2.sh",
+                        "file": "verify2-2.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 5,
                         "showstderr": false
@@ -48,11 +48,11 @@
             },
             {
                 "title": "Modifying a mutable data type",
-                "text": "step2.md",
+                "text": "step3.md",
                 "verify": [
                     {
                         "name": "Variable data types",
-                        "file": "verify2.sh",
+                        "file": "verify3.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
@@ -64,11 +64,11 @@
             },
             {
                 "title": " Modifying an immutable data type",
-                "text": "step3.md",
+                "text": "step4.md",
                 "verify": [
                     {
                         "name": "Immutable data types",
-                        "file": "verify3.sh",
+                        "file": "verify4.sh",
                         "hint": "Please follow the steps to complete the operation.",
                         "timeout": 0,
                         "showstderr": false
@@ -96,6 +96,6 @@
         }
     },
     "backend": {
-        "imageid": "webide-ubuntu:2204"
+        "imageid": "vnc-ubuntu:2204"
     }
 }
