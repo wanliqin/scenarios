@@ -1,4 +1,4 @@
-# Modifying a mutable data type
+# Modifying a Mutable data type
 
 Next, we'll create and modify a mutable data type together.
 
@@ -13,4 +13,3 @@ x.append(4)
 # Observe the changes in variable `y`.
 print(y)  # Output: [1, 2, 3, 4] (y also reflects the changes because x and y share the same memory address)
 ```
-
