@@ -1,4 +1,4 @@
-# Modifying a Mutable data type
+# Modifying a Mutable Data Type
 
 Next, we'll create and modify a mutable data type together.
 
